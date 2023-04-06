@@ -5,7 +5,7 @@ from conan.tools.cmake import CMakeToolchain, CMake, cmake_layout
 class NewpkgConan(ConanFile):
     name = "newpkg"
     version = "1.0.0"
-    requires = "openssl/1.1.1o@"
+    # requires = "openssl/1.1.1o@"
     # Optional metadata
     license = "<Put the package license here>"
     author = "<Put your name here> <And your email here>"

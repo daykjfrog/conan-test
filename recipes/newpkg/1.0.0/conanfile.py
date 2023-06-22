@@ -3,7 +3,7 @@ from conan.tools.cmake import CMakeToolchain, CMake, cmake_layout
 
 
 class NewpkgConan(ConanFile):
-    name = "rgt/2837e72@ci/features_xxWT_1141_artifactor"
+    name = "rgt/2837e72ci/features_xxWT_1141_artifactor"
     version = "1.0.0"
     # requires = "openssl/1.1.1o@"
     # Optional metadata

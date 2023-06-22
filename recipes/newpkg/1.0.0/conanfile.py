@@ -3,8 +3,8 @@ from conan.tools.cmake import CMakeToolchain, CMake, cmake_layout
 
 
 class NewpkgConan(ConanFile):
-    name = "rgt/2837e72ci/features"
-    version = "1.0.0"
+    name = "rgt"
+    version = "1.0.0@ci"
     # requires = "openssl/1.1.1o@"
     # Optional metadata
     license = "<Put the package license here>"
